@@ -26,7 +26,7 @@
                             var hh=t.getHours();
                             var mm=t.getMinutes();
                             var ss=t.getSeconds();
-                            document.getElementsByClassName("update")[0].innerHTML="更新于："+y+"."+(m<10?":0":":")+m+"."+(d<10?":0":":")+d+" "+(hh<10?":0":":")+hh+(mm<10?":0":":")+mm+(ss<10?":0":":")+ss;
+                            document.getElementsByClassName("update")[0].innerHTML="更新于："+y+(m<10?".0":".")+m+(d<10?".0":".")+d+(hh<10?" :0":" :")+hh+(mm<10?":0":":")+mm+(ss<10?":0":":")+ss;
                         </script>
                         <div data-v-40e2a7de="" class="info">
                             <div data-v-40e2a7de="" class="img-holder green-bg">
